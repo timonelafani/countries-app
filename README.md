@@ -2,6 +2,8 @@
 
 DEMO 👉 https://countries-sepia.vercel.app/
 
+... or visit [CodeSandbox](https://6cw1u.sse.codesandbox.io/countries)
+
 ## Prerequisites
 
 You will need [Node.js](https://nodejs.org) version 8.0 or greater installed on your system.
@@ -14,9 +16,7 @@ Get the code by either cloning this repository using git
 git clone git@github.com:timonelafani/countries-app.git
 ```
 
-... or [downloading source code](git@github.com:timonelafani/countries-app/archive/master.zip) code as a zip archive.
-
-... or visit [CodeSandbox](https://6cw1u.sse.codesandbox.io/countries)
+... or [downloading source code](https://github.com/timonelafani/countries-app/archive/main.zip) code as a zip archive.
 
 Once downloaded, open the terminal in the project directory, and install dependencies with:
 

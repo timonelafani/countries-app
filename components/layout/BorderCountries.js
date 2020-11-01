@@ -3,7 +3,7 @@ import React from "react";
 import CountryContainer from "./CountryContainer";
 
 const useStyles = makeStyles((theme) => ({
-  root: {
+  borderRoot: {
     width: "80%",
     margin: "0 auto",
     marginTop: "-60px",
@@ -24,7 +24,7 @@ const BorderCountries = (props) => {
   const classes = useStyles();
 
   return (
-    <Grid container className={classes.root}>
+    <Grid container className={classes.borderRoot}>
       {borders ? (
         borders.map((country) => {
           return (
