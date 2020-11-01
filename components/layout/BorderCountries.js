@@ -28,7 +28,7 @@ const BorderCountries = (props) => {
       {borders ? (
         borders.map((country) => {
           return (
-            <Grid item sm={6} md={3} className={classes.item}>
+            <Grid item sm={6} md={3} className={classes.item} key={country.name}>
               <CountryContainer country={country} />
             </Grid>
           );

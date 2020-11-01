@@ -39,10 +39,10 @@ const CountryContainer = (props) => {
           title={`${country.name} flag`}
         />
         <CardContent>
-          <Typography gutterBottom variant="body2" component="h2">
+          <Typography gutterBottom variant="body2">
             {country.name} - {country.capital}
           </Typography>
-          <Typography variant="suntitle1" color="textSecondary" component="p">
+          <Typography variant="subtitle1" color="textSecondary">
             Population: {country.population.toLocaleString()}
           </Typography>
         </CardContent>

@@ -52,9 +52,6 @@ Country.getInitialProps = async (ctx) => {
       `https://restcountries.eu/rest/v2/name/${name}`
     );
     const country = res1.data;
-    console.log(country, country[0].borders);
-    console.log(country[0].borders.join(";"));
-    console.log(borders, country);
     if (country && country[0].borders.length > 0) {
       const res2 = await axios.get(
         `https://restcountries.eu/rest/v2/alpha?codes=${country[0].borders.join(
@@ -63,7 +60,6 @@ Country.getInitialProps = async (ctx) => {
       );
       borders = res2.data;
     }
-    console.log(borders, country);
     if (country) return { country, borders };
   } catch (error) {
     return { error };

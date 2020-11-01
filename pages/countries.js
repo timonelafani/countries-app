@@ -17,7 +17,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function Page({ countries, error }) {
-  console.log(error);
   const classes = useStyles();
   if(error){
     return <Typography variant="h5">Upss something bad happend!</Typography>
@@ -28,7 +27,7 @@ function Page({ countries, error }) {
         {countries &&
           countries.map((country) => {
             return (
-              <Grid item xs={12} sm={6} md={4} className={classes.item}>
+              <Grid item xs={12} sm={6} md={4} className={classes.item} key={country.name}>
                 <CountryContainer country={country} />
               </Grid>
             );
