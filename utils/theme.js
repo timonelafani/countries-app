@@ -15,7 +15,10 @@ const theme = createMuiTheme({
     h3:{
       fontFamily:"Lato",
       color:"#121037",
-      fontWeight:"bold"
+      fontWeight:"bold",
+      '@media (min-width:400px)': {
+        fontSize: '2rem',
+      },
     },
     h5:{
       fontFamily:"Lato",
