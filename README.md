@@ -2,7 +2,7 @@
 
 DEMO 👉 https://countries-sepia.vercel.app/
 
-... or visit [CodeSandbox](https://6cw1u.sse.codesandbox.io/countries)
+... or visit [CodeSandbox](https://6cw1u.sse.codesandbox.io)
 
 ## Prerequisites
 

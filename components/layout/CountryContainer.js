@@ -12,7 +12,7 @@ import Link from "next/link";
 import React from "react";
 
 const useStyles = makeStyles((theme) => ({
-  media: {
+  image: {
     height: 180,
     width: "auto",
     minWidth: 300,
@@ -28,7 +28,7 @@ const CountryContainer = (props) => {
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
-          className={classes.media}
+          className={classes.image}
           image={country.flag}
           title={`${country.name} flag`}
         />
