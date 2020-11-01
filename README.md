@@ -1,30 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#  Countries list website
 
-## Getting Started
+DEMO 👉 TODO
 
-First, run the development server:
+## Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
+You will need [Node.js](https://nodejs.org) version 8.0 or greater installed on your system.
+
+## Setup
+
+Get the code by either cloning this repository using git
+
+```
+git clone TODO
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+... or [downloading source code](TODO) code as a zip archive.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Once downloaded, open the terminal in the project directory, and install dependencies with:
 
-## Learn More
+```
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Then start the example app with:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm run dev
+or
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The app should now be up and running at http://localhost:3000 🚀
