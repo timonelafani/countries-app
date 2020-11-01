@@ -1,8 +1,8 @@
 #  Countries list website
 
-DEMO 👉 https://countries-sepia.vercel.app/
+DEMO 👉 https://6cw1u.sse.codesandbox.io
 
-... or visit [CodeSandbox](https://6cw1u.sse.codesandbox.io)
+... or visit [Vercel](https://countries-sepia.vercel.app/)
 
 ## Prerequisites
 
