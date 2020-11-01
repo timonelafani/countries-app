@@ -5,6 +5,7 @@ import {
   CardActions,
   CardContent,
   CardMedia,
+  Grid,
   makeStyles,
   Typography,
 } from "@material-ui/core";
@@ -12,11 +13,16 @@ import Link from "next/link";
 import React from "react";
 
 const useStyles = makeStyles((theme) => ({
+  root:{
+    minWidth:"19vw",
+  },
   image: {
-    height: 180,
-    width: "auto",
-    minWidth: 300,
-    objectFit: "contain",
+    height: "180px",
+    maxWidth: "100%",
+    verticalAlign: "middle",
+    backgroundPosition:" center center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
   },
 }));
 
@@ -33,10 +39,10 @@ const CountryContainer = (props) => {
           title={`${country.name} flag`}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography gutterBottom variant="body2" component="h2">
             {country.name} - {country.capital}
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="suntitle1" color="textSecondary" component="p">
             Population: {country.population.toLocaleString()}
           </Typography>
         </CardContent>
